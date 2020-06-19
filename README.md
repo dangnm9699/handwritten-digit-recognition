@@ -87,3 +87,5 @@
 >
 > <img src="https://latex.codecogs.com/svg.latex?\Large&space;W^{[l\hspace{0.5mm}]}=np.random.randn(size^{[l+1\hspace{0.5mm}]},size^{[l]})*\sqrt{\frac{2}{size^{[l+1\hspace{0.5mm}]}+size^{[l]}}}" title="weights-initialization-technique"/>
 
+## How to use
+"Run all" train.ipynb, this takes about 25 minutes (if you use Ubuntu)
