@@ -10,14 +10,15 @@ import dill
 app = Flask(__name__)
 global_sess = None
 dill.load_session('model.db')
-# return Index page
+
+# Return Homepage
 @app.route('/')
 def index():
     return render_template('index.html')
 
 
-# Recognition POST
-@app.route('/DigitRecognition', methods=['POST'])
+# Image POST
+@app.route('/digit-recognition', methods=['POST'])
 def ExecPy():
     retJson = {"predict_digit": "Err", "detect_img": "", "centering_img": "", "prob": {}}
 
@@ -65,9 +66,9 @@ def __centering_img(img):
 
 
 # predict digit
-def predict(imgpath):
+def predict(img_path):
     try:
-        img = Image.open(imgpath).convert('L')
+        img = Image.open(img_path).convert('L')
 
     except IOError:
         print("image not found")

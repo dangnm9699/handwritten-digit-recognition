@@ -131,7 +131,7 @@ function onRecognition() {
     console.time("time");
 
     $.ajax({
-            url: './DigitRecognition',
+            url: './digit-recognition',
             type:'POST',
             data : {img : cvsIn.toDataURL("image/png").replace('data:image/png;base64,','') },
 
