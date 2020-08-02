@@ -33,7 +33,7 @@ def ExecPy():
             retJson["prob"][i] = float(item * 100)
 
         # save digits
-        Image.open(postImg).save("./predict_results/{}_{}.png".format(datetime.now().strftime('%m-%d_%H.%M.%S'), retJson["predict_digit"]))
+        Image.open(postImg).save("./results/{}_{}.png".format(datetime.now().strftime('%m-%d_%H.%M.%S'), retJson["predict_digit"]))
 
     return json.dumps(retJson)
 
