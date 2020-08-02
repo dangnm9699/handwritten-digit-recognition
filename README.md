@@ -2,7 +2,7 @@
 
 *Build neural network in Python from scratch*
 <br/>
-*Demo from [Katz Sasaki](https://github.com/nai-kon/CNN-Digit-Recognition)*
+*Thanks to demo from [Katz Sasaki](https://github.com/nai-kon/CNN-Digit-Recognition), I only replace the model*
 
 ### Python version
 ```
