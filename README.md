@@ -1,4 +1,4 @@
-# Neural Network Raw Python
+# Neural Network In Python From Scratch
 
 *Build neural network in Python from scratch*
 <br/>
