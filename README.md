@@ -1,5 +1,7 @@
 # Neural Network In Python From Scratch
 
+*Notes: This is Project II in the 20192 semester*
+
 *Build neural network in Python from scratch*
 <br/>
 *Thanks to demo from [Katz Sasaki](https://github.com/nai-kon/CNN-Digit-Recognition), I only replace the model*
