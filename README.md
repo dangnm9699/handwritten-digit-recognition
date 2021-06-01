@@ -1,31 +1,8 @@
-# Neural Network In Python From Scratch
+# Hand-written digits recognition
 
-*Notes: This is Project II in the 20192 semester*
-
-*Build neural network in Python from scratch*
-<br/>
-*Thanks to demo from [Katz Sasaki](https://github.com/nai-kon/CNN-Digit-Recognition), I only replace the model*
-
-### Python version
-```
-Python 3.7.6
-```
-
-## Install required packages
-```git
-pip install -r requirements.txt
-```
-## How to use
-1. "Run all" **model.ipynb** to get **model.db**
-2. Start server
-```git
-python server.py
-```
-3. Open browser, access to **0.0.0.0:5000**
-
-## Model details
+## Model descriptions
 1. Fully-connected neural network
-2. 
+2. Architecture
 * Input layer: 784 neurons
 * Hidden layer: 256 neurons and 128 neurons, use ReLU function
 * Output layer: 10 neurons, use Softmax and Cross-Entropy to evaluate loss
