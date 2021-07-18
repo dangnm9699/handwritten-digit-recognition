@@ -5,10 +5,10 @@
 Use this section to tell people about which versions of your project are
 currently being supported with security updates.
 
-| Branch  | Supported          |
-| ------- | ------------------ |
-| old     | :white_check_mark: |
-| master  | :x:                |
+| Branch | Supported          |
+| ------ | ------------------ |
+| old    | :white_check_mark: |
+| master | :white_check_mark: |
 
 ## Reporting a Vulnerability
 
